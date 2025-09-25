@@ -30,30 +30,40 @@ Recursion
 Add, update, deactivate students
 Each student has ID, registration number, name, email, status, enrolled courses
 Print student profile and transcript
+
 2. Course Management
 Add, update, deactivate courses
 Each course has code, title, credits, instructor, semester, department
 Search/filter courses using Streams
+
 3. Enrollment & Grading
 Enroll/unenroll students with credit limits
 Record grades (S, A, B, …, F)
 Compute GPA and generate transcripts
+
 4. File Operations
 Import/export students and courses from CSV
 Export enrollment data
 Backup data into timestamped folders
 Recursive utility to calculate backup folder size
+
 5. CLI Workflow
 Menu-driven operations using switch
 Demonstrates loops (for, while, do-while), break, continue
 
 🛠️ Technical Highlights
 Design Patterns: Singleton (AppConfig), Builder (Course.Builder)
+
 OOP: Abstract class Person, subclasses Student, Instructor
+
 Immutability: Name class is immutable
+
 Enums: Semester, Grade with constructors and grade points
+
 Exceptions: Custom exceptions DuplicateEnrollmentException, MaxCreditLimitExceededException
+
 Java SE APIs: NIO.2 for file handling, Streams API for filtering/searching, Date/Time API for timestamps
+
 Recursion: Used in backup folder size calculation
 
 📂 Package Structure
