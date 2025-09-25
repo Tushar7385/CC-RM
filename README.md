@@ -6,14 +6,23 @@ This project demonstrates not only the functional requirements of such a system 
 
 🎯 Objectives
 Build a menu-driven CLI application that allows easy interaction.
+
 Manage students, courses, enrollments, and grading.
+
 Implement file operations (CSV import/export, recursive backup with NIO.2).
+
 Showcase Java SE OOP & advanced features:
+
 Encapsulation, inheritance, abstraction, polymorphism
+
 Interfaces, nested classes, lambdas, anonymous classes
+
 Design patterns (Singleton, Builder)
+
 Exception handling with custom exceptions
+
 Streams API and Date/Time API
+
 Recursion
 
 ⚡ Features
@@ -46,4 +55,5 @@ Enums: Semester, Grade with constructors and grade points
 Exceptions: Custom exceptions DuplicateEnrollmentException, MaxCreditLimitExceededException
 Java SE APIs: NIO.2 for file handling, Streams API for filtering/searching, Date/Time API for timestamps
 Recursion: Used in backup folder size calculation
+
 📂 Package Structure
