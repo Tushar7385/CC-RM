@@ -15,6 +15,7 @@ Design patterns (Singleton, Builder)
 Exception handling with custom exceptions
 Streams API and Date/Time API
 Recursion
+
 ⚡ Features
 1. Student Management
 Add, update, deactivate students
@@ -36,6 +37,7 @@ Recursive utility to calculate backup folder size
 5. CLI Workflow
 Menu-driven operations using switch
 Demonstrates loops (for, while, do-while), break, continue
+
 🛠️ Technical Highlights
 Design Patterns: Singleton (AppConfig), Builder (Course.Builder)
 OOP: Abstract class Person, subclasses Student, Instructor
